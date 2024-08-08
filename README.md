@@ -1,11 +1,11 @@
 
-# NuGet FIAP - App Produto
+# NuGet FIAP - App Cliente
 
-Este repositório contém a implementação do sistema de gestão de produtos, parte do projeto da fase IV do curso de pós-graduação em arquitetura de software da FIAP - 3SOAT. O sistema é estruturado em várias camadas, incluindo acesso a dados, lógica de negócios, e uma API para acesso via aplicativos ou serviços externos.
+Este repositório contém a implementação do sistema de gestão de clientes, parte do projeto da fase V do curso de pós-graduação em arquitetura de software da FIAP - 3SOAT. O sistema é estruturado em várias camadas, incluindo acesso a dados, lógica de negócios, e uma API para acesso via aplicativos ou serviços externos.
 
 
 ## Membros:
-- [Camila Lemos de Melo - RM 352359]()
+- [Camila Lemos de Melo - RM 352359](https://www.linkedin.com/in/camilaldmelo/)
 - [Christian Soares Santos - RM 351509](https://www.linkedin.com/in/christian-soares-93250a170/)
 - [Fábio Guimarães Martins - RM 351825](https://www.linkedin.com/in/fabio-martins-2021)
 - [Josué Batista Cruz Júnior - RM 352045](https://www.linkedin.com/in/josuejuniorjf/)
@@ -23,13 +23,13 @@ Este repositório contém a implementação do sistema de gestão de produtos, p
 
 ## Estrutura do Repositório
 ### Camadas
-- nuget-fiap-app-produto-common: Contém modelos e interfaces utilizados pelos serviços e repositórios.
-- nuget-fiap-app-produto-repository: Implementação do acesso aos dados utilizando o Dapper.
-- nuget-fiap-app-produto-server: API que expõe endpoints para interação com o sistema de produtos.
-- nuget-fiap-app-produto-services: Lógica de negócios, chamando os repositórios para acesso a dados.
+- nuget-fiap-app-cliente-common: Contém modelos e interfaces utilizados pelos serviços e repositórios.
+- nuget-fiap-app-cliente-repository: Implementação do acesso aos dados utilizando o Dapper.
+- nuget-fiap-app-cliente-server: API que expõe endpoints para interação com o sistema de produtos.
+- nuget-fiap-app-cliente-services: Lógica de negócios, chamando os repositórios para acesso a dados.
 ### Testes
-- nuget-fiap-app-produto-test: Testes unitários e de integração.
-- nuget-fiap-app-produto-test-bdd: Testes de comportamento usando SpecFlow.
+- nuget-fiap-app-cliente-test: Testes unitários e de integração.
+- nuget-fiap-app-cliente-test-bdd: Testes de comportamento usando SpecFlow.
 
 ## Docker
 O sistema pode ser executado em contêineres Docker, facilitando a configuração e implantação. O arquivo docker-compose.yml raiz configura o ambiente necessário, incluindo a aplicação e o banco de dados.
@@ -74,10 +74,10 @@ Essas configurações garantem que os testes possam interagir corretamente com a
 
 ### Relatório de Cobertura de Testes
 
-Para visualizar o relatório de cobertura de testes, navegue até o diretório `nuget-fiap-app-produto-test/coveragereport` e abra o arquivo `index.html`. Este relatório fornece uma visão detalhada da cobertura de testes alcançada pelos testes unitários e de integração, ajudando a identificar áreas do código que podem necessitar de mais atenção em termos de testes.
+Para visualizar o relatório de cobertura de testes, navegue até o diretório `nuget-fiap-app-cliente-test/coveragereport` e abra o arquivo `index.html`. Este relatório fornece uma visão detalhada da cobertura de testes alcançada pelos testes unitários e de integração, ajudando a identificar áreas do código que podem necessitar de mais atenção em termos de testes.
 
 
-![](nuget-fiap-app-produto-test/coverage.png)
+![](nuget-fiap-app-cliente-test/coverage.png)
 
 ### Geração de Relatório de Cobertura de Testes
 Para gerar um relatório detalhado de cobertura de testes, que permite avaliar quais partes do código foram efetivamente testadas, siga os passos abaixo:
@@ -102,100 +102,54 @@ O ReportGenerator deve estar instalado globalmente ou disponível como uma ferra
 
 ## Consumo da API
 
-Para facilitar o consumo e teste da API, disponibilizamos uma [coleção](api-produtos.postman_collection.json) do Postman que contém modelos pré-configurados de requisições. Abaixo estão detalhadas as rotas disponíveis, juntamente com exemplos de uso para cada operação.
+Para facilitar o consumo e teste da API, disponibilizamos uma [coleção](api-cliente.postman_collection.json) do Postman que contém modelos pré-configurados de requisições. Abaixo estão detalhadas as rotas disponíveis, juntamente com exemplos de uso para cada operação.
 
 
-### Categorias
+### Clientes
 
-#### Listar Todas as Categorias
+#### Listar Todas os clientes
 - Método: GET
-- URL: http://<url>/Categoria
-- Descrição: Retorna todas as categorias cadastradas no sistema.
+- URL: http://<url>/Cliente
+- Descrição: Retorna todas os clientes cadastradas no sistema.
 
-#### Criar Categoria
+#### Criar Cliente
 - Método: POST
-- URL: http://<url>/Categoria
+- URL: http://<url>/Cliente
 - Body:
 ```bash
 {
-  "idCategoria": 0,
-  "nome": "Saladas Especiais"
+  "idCliente": 1,
+  "nome": "João",
+  "cpf": "00000000000",
+  "email": "maria@m.com.br",
+  "endereco": "rua sete",
+  "telefone": "5511988888888"
 }
 ```
-- Descrição: Adiciona uma nova categoria ao sistema.
+- Descrição: Adiciona uma nova cliente ao sistema.
 
-#### Obter Categoria por ID
+#### Obter Cliente por ID
 - Método: GET
-- URL: http://<url>/Categoria/1
-- Descrição: Retorna os detalhes de uma categoria específica.
+- URL: http://<url>/Cliente/1
+- Descrição: Retorna os detalhes de um cliente específica.
 
-#### Atualizar Categoria
+#### Atualizar Cliente
 - Método: PUT
-- URL: http://<url>/Categoria/5
+- URL: http://<url>/cliente/5
 - Body:
 ```bash
 {
-  "idCategoria": 5,
-  "nome": "Salada Especial"
+  "idCliente": 5,
+  "nome": "Maria",
+  "cpf": "00000000000",
+  "email": "maria@m.com.br",
+  "endereco": "rua oito",
+  "telefone": "5511988888888"
 }
 ```
-- Descrição: Atualiza os dados de uma categoria existente.
+- Descrição: Atualiza os dados de um cliente existente.
 
-#### Excluir Categoria
+#### Excluir cliente
 - Método: DELETE
-- URL: http://<url>/Categoria/5
-- Descrição: Remove uma categoria do sistema.
-
-### Produtos
-#### Listar Todos os Produtos
-- Método: GET
-- URL: http://<url>/Produto
-- Descrição: Retorna todos os produtos cadastrados no sistema.
-
-#### Criar Produto
-- Método: POST
-- URL: http://<url>/Produto
-- Body:
-```bash
-{
-  "nome": "Sundae de Morango",
-  "descricao": "Sobremesa de Morango",
-  "preco": 3.99,
-  "urlImagem": "https://example.com/imagem78.jpg",
-  "idCategoria": 4,
-  "categoria": "Sobremesa"
-}
-```
-- Descrição: Adiciona um novo produto ao sistema.
-
-#### Obter Produto por ID
-- Método: GET
-- URL: http://<url>/Produto/1
-- Descrição: Retorna os detalhes de um produto específico.
-
-#### Atualizar Produto
-- Método: PUT
-- URL: http://<url>/Produto/1
-- Body:
-```bash
-{
-  "idProduto": 1,
-  "nome": "Hambúrguer",
-  "descricao": "Hambúrguer delicioso",
-  "preco": 12.99,
-  "urlImagem": "https://example.com/imagem1.jpg",
-  "idCategoria": 1,
-  "categoria": "Lanche"
-}
-```
-- Descrição: Atualiza os dados de um produto existente.
-
-#### Excluir Produto
-- Método: DELETE
-- URL: http://<url>/Produto/31
-- Descrição: Remove um produto do sistema.
-
-#### Listar Produtos por Categoria
-- Método: GET
-- URL: http://<url>/Produto/Categoria/2
-- Descrição: Retorna todos os produtos de uma categoria específica.
+- URL: http://<url>/Cliente/5
+- Descrição: Remove um cliente do sistema.

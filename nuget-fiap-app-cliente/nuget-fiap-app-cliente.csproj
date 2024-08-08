@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>nuget_fiap_app_cliente</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\nuget-fiap-app-cliente-common\nuget-fiap-app-cliente-common.csproj" />
+    <ProjectReference Include="..\nuget-fiap-app-cliente-repository\nuget-fiap-app-cliente-repository.csproj" />
+    <ProjectReference Include="..\nuget-fiap-app-cliente-common\nuget-fiap-app-cliente-common.csproj" />
+    <ProjectReference Include="..\nuget-fiap-app-cliente-repository\nuget-fiap-app-cliente-repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>

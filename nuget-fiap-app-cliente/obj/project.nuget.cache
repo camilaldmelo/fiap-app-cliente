@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "FBXaxxLs9vTg+0itjXm3Zi08OmiQ/fZn9bdQvUw1FEStNgplUEbPgJo3WRu9l0WLnRld6Taiur8jiJuK6UJ84Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-cliente\\nuget-fiap-app-cliente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Erikson\\.nuget\\packages\\dapper\\2.1.4\\dapper.2.1.4.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

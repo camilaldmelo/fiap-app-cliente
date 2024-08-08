@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oiwsxKzmXwQc7vCArqEVl82MMNiKVQKyRb3f8eAMIDU=",
+  "Source": "nuget-fiap-app-cliente-server",
+  "BasePath": "_content/nuget-fiap-app-cliente-server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

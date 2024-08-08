@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "nuget-fiap-app-cliente-common/1.0.0": {
+        "runtime": {
+          "nuget-fiap-app-cliente-common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "nuget-fiap-app-cliente-common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

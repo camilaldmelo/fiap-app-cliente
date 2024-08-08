@@ -1,0 +1,385 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-test-bdd\\nuget-fiap-app-produto-test-bdd.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj",
+        "projectName": "nuget-fiap-app-cliente-common",
+        "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj",
+        "packagesPath": "C:\\Users\\Erikson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Erikson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\nuget-fiap-app-cliente-repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\nuget-fiap-app-cliente-repository.csproj",
+        "projectName": "nuget-fiap-app-cliente-repository",
+        "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\nuget-fiap-app-cliente-repository.csproj",
+        "packagesPath": "C:\\Users\\Erikson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Erikson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-server\\nuget-fiap-app-cliente-server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-server\\nuget-fiap-app-cliente-server.csproj",
+        "projectName": "nuget-fiap-app-cliente-server",
+        "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-server\\nuget-fiap-app-cliente-server.csproj",
+        "packagesPath": "C:\\Users\\Erikson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Erikson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\nuget-fiap-app-cliente-repository.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\nuget-fiap-app-cliente-repository.csproj"
+              },
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\nuget-fiap-app-cliente.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\nuget-fiap-app-cliente.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.ReDoc": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-test-bdd\\nuget-fiap-app-produto-test-bdd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-test-bdd\\nuget-fiap-app-produto-test-bdd.csproj",
+        "projectName": "nuget-fiap-app-produto-test-bdd",
+        "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-test-bdd\\nuget-fiap-app-produto-test-bdd.csproj",
+        "packagesPath": "C:\\Users\\Erikson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-test-bdd\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Erikson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj"
+              },
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-server\\nuget-fiap-app-cliente-server.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-server\\nuget-fiap-app-cliente-server.csproj"
+              },
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\nuget-fiap-app-cliente.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\nuget-fiap-app-cliente.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\nuget-fiap-app-cliente.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\nuget-fiap-app-cliente.csproj",
+        "projectName": "nuget-fiap-app-cliente",
+        "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\nuget-fiap-app-cliente.csproj",
+        "packagesPath": "C:\\Users\\Erikson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Erikson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-common\\nuget-fiap-app-cliente-common.csproj"
+              },
+              "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\nuget-fiap-app-cliente-repository.csproj": {
+                "projectPath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-produto-repository\\nuget-fiap-app-cliente-repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

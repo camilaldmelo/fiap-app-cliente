@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gPaWa+6cUmemLKt36G79PZtqz/DudCShiwVQAvRdt1GxGT9utCnp2JQk+aL79+Oxwbl7/kqZ9uRaYa3ObmzCwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Erikson\\src\\nuget-fiap-app-cliente\\nuget-fiap-app-cliente-repository\\nuget-fiap-app-cliente-repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Erikson\\.nuget\\packages\\dapper\\2.1.4\\dapper.2.1.4.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
+    "C:\\Users\\Erikson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
